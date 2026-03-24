@@ -24,3 +24,11 @@ Vector2D Vector_Mul(Vector2D a, float m) {
 float Vector_DotProduct(Vector2D a, Vector2D b) {
     return a.x*b.x + a.y*b.y;
 }
+
+float Vector_Lenght(Vector2D v) {
+    return sqrtf(v.x*v.x + v.y*v.y);
+}
+
+float Vector_Dist(Vector2D u, Vector2D v) {
+    return sqrtf((u.x-v.x)*(u.x-v.x) + (u.y-v.y)*(u.y-v.y));
+}

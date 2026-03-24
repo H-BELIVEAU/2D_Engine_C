@@ -9,7 +9,7 @@ float ppm = 10.0f/0.3f;
 
 
 void init() {
-    ball = Ball_Init(7.5f, 7.5f, 0.3f, 5.0f);
+    ball = Ball_Init(7.5f, 7.5f, 0.3f, 10.0f);
     ball.dx = 3.0f;
 }
 
